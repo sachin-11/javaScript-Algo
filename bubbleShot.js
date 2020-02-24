@@ -4,7 +4,7 @@ function BubbleSort(arr) {
       console.log(arr, arr[j], arr[j + 1]);
       if (arr[j] > arr[j + 1]) {
         //swap
-
+      console.log(arr[j])
         var temp = arr[j];
 
         arr[j] = arr[j + 1];
